@@ -6,4 +6,5 @@ package org.LegOfSea;/*
 
 public interface Music {
     String getSong();
+    int getTime();
 }

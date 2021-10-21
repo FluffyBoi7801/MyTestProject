@@ -10,4 +10,10 @@ public class ClassicalMusic implements Music {
     {
         return "Taylor Swift";
     }
+
+    @Override
+    public int getTime()
+    {
+        return 0;
+    }
 }

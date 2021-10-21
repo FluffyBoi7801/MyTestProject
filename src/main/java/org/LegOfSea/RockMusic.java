@@ -10,4 +10,9 @@ public class RockMusic implements Music{
     {
         return "Metallica";
     }
+    @Override
+    public int getTime()
+    {
+        return 1;
+    }
 }
